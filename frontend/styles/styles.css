@@ -1,0 +1,70 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.filter-section {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.filter-container {
+    display: flex;
+    gap: 10px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.data-table th {
+    background-color: #f2f2f2;
+}
+
+.chart-container {
+    margin-top: 30px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
